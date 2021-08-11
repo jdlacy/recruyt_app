@@ -14,6 +14,7 @@
 		3F1630DD26C210ED00D76666 /* recruyt_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1630DC26C210ED00D76666 /* recruyt_appTests.swift */; };
 		3F1630E826C210ED00D76666 /* recruyt_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1630E726C210ED00D76666 /* recruyt_appUITests.swift */; };
 		3F1630F626C211F400D76666 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1630F526C211F400D76666 /* MenuView.swift */; };
+		E9D19F7626C47C35007BAA85 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D19F7526C47C35007BAA85 /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F1630E726C210ED00D76666 /* recruyt_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruyt_appUITests.swift; sourceTree = "<group>"; };
 		3F1630E926C210ED00D76666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1630F526C211F400D76666 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		E9D19F7526C47C35007BAA85 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3F1630CA26C210EC00D76666 /* recruyt_appApp.swift */,
 				3F1630CC26C210EC00D76666 /* ContentView.swift */,
 				3F1630F526C211F400D76666 /* MenuView.swift */,
+				E9D19F7526C47C35007BAA85 /* About.swift */,
 				3F1630CE26C210ED00D76666 /* Assets.xcassets */,
 				3F1630D326C210ED00D76666 /* Info.plist */,
 				3F1630D026C210ED00D76666 /* Preview Content */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1630CD26C210EC00D76666 /* ContentView.swift in Sources */,
+				E9D19F7626C47C35007BAA85 /* About.swift in Sources */,
 				3F1630F626C211F400D76666 /* MenuView.swift in Sources */,
 				3F1630CB26C210EC00D76666 /* recruyt_appApp.swift in Sources */,
 			);

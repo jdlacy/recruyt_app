@@ -54,6 +54,14 @@ struct MainView: View {
     
     var body: some View {
         VStack{
+            
+                   Image("Recruyt_Logo")
+                       .resizable()
+                    .frame(width:200,height:200)
+                    .padding(.top, -200)
+                    .padding(.bottom, 50)
+            
+               
             Text("Welcome to Entry Level Tech Help")
             Text("Powered by Recruyt")
                 .padding(20)
@@ -63,9 +71,10 @@ struct MainView: View {
                 .padding(5)
             Text("Interview Prep")
                 .padding(5)
+            }
         }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
