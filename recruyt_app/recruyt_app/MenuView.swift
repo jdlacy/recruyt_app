@@ -11,15 +11,13 @@ struct MenuView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                Button (action: {})
-                {
                 Image(systemName: "house")
                     .foregroundColor(.gray)
                     .imageScale(.large)
                 Text("Home")
                     .foregroundColor(.gray)
                     .font(.headline)
-                }}
+                }
             .padding(.top, 100)
             HStack {
                 NavigationLink(
@@ -35,7 +33,7 @@ struct MenuView: View {
             HStack {
                 NavigationLink(
                     destination: InterviewPrep()){
-                Image(systemName: "pencil")
+                Image(systemName: "bubble.left.and.bubble.right")
                     .foregroundColor(.gray)
                     .imageScale(.large)
                 Text("Interview Prep")
@@ -46,7 +44,7 @@ struct MenuView: View {
             HStack {
                 NavigationLink(
                     destination: Tips_Resume()){
-                Image(systemName: "gearshape")
+                Image(systemName: "pencil")
                     .foregroundColor(.gray)
                     .imageScale(.large)
                 Text("Tips and Resume")
@@ -57,10 +55,21 @@ struct MenuView: View {
             HStack {
                 NavigationLink(
                     destination: Connections()){
-                Image(systemName: "gearshape")
+                Image(systemName: "network")
                     .foregroundColor(.gray)
                     .imageScale(.large)
                 Text("Building Connections")
+                    .foregroundColor(.gray)
+                    .font(.headline)
+                }}
+            .padding(.top, 30)
+            HStack {
+                NavigationLink(
+                    destination: OurTeam()){
+                Image(systemName: "figure.wave")
+                    .foregroundColor(.gray)
+                    .imageScale(.large)
+                Text("Meet the Devs")
                     .foregroundColor(.gray)
                     .font(.headline)
                 }}

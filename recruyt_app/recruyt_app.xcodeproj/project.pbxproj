@@ -17,6 +17,7 @@
 		3F1630FC26DEADD700D76666 /* InterviewPrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1630FB26DEADD700D76666 /* InterviewPrep.swift */; };
 		3F1630FE26DEAE0700D76666 /* Tips_Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1630FD26DEAE0700D76666 /* Tips_Resume.swift */; };
 		3F16310026DEAE2E00D76666 /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1630FF26DEAE2E00D76666 /* Connections.swift */; };
+		3F16310226DEAF8D00D76666 /* OurTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F16310126DEAF8D00D76666 /* OurTeam.swift */; };
 		E9D19F7626C47C35007BAA85 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D19F7526C47C35007BAA85 /* About.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		3F1630FB26DEADD700D76666 /* InterviewPrep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewPrep.swift; sourceTree = "<group>"; };
 		3F1630FD26DEAE0700D76666 /* Tips_Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips_Resume.swift; sourceTree = "<group>"; };
 		3F1630FF26DEAE2E00D76666 /* Connections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
+		3F16310126DEAF8D00D76666 /* OurTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurTeam.swift; sourceTree = "<group>"; };
 		E9D19F7526C47C35007BAA85 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				3F1630CA26C210EC00D76666 /* recruyt_appApp.swift */,
 				3F1630CC26C210EC00D76666 /* ContentView.swift */,
 				3F1630F526C211F400D76666 /* MenuView.swift */,
+				3F16310126DEAF8D00D76666 /* OurTeam.swift */,
 				3F1630FF26DEAE2E00D76666 /* Connections.swift */,
 				3F1630FD26DEAE0700D76666 /* Tips_Resume.swift */,
 				3F1630FB26DEADD700D76666 /* InterviewPrep.swift */,
@@ -279,6 +282,7 @@
 				3F16310026DEAE2E00D76666 /* Connections.swift in Sources */,
 				E9D19F7626C47C35007BAA85 /* About.swift in Sources */,
 				3F1630F626C211F400D76666 /* MenuView.swift in Sources */,
+				3F16310226DEAF8D00D76666 /* OurTeam.swift in Sources */,
 				3F1630FE26DEAE0700D76666 /* Tips_Resume.swift in Sources */,
 				3F1630CB26C210EC00D76666 /* recruyt_appApp.swift in Sources */,
 			);
