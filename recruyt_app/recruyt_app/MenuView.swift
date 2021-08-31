@@ -33,31 +33,37 @@ struct MenuView: View {
                 }}
             .padding(.top, 30)
             HStack {
+                NavigationLink(
+                    destination: InterviewPrep()){
                 Image(systemName: "pencil")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Our Team")
+                Text("Interview Prep")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 30)
             HStack {
+                NavigationLink(
+                    destination: Tips_Resume()){
                 Image(systemName: "gearshape")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Our Clients")
+                Text("Tips and Resume")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 30)
             HStack {
+                NavigationLink(
+                    destination: Connections()){
                 Image(systemName: "gearshape")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Settings")
+                Text("Building Connections")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 30)
             Spacer()
         }
