@@ -11,22 +11,26 @@ struct MenuView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
+                Button (action: {})
+                {
                 Image(systemName: "house")
                     .foregroundColor(.gray)
                     .imageScale(.large)
                 Text("Home")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 100)
             HStack {
+                NavigationLink(
+                    destination: About()){
                 Image(systemName: "a.square")
                     .foregroundColor(.gray)
                     .imageScale(.large)
                 Text("About Recruyt")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 30)
             HStack {
                 Image(systemName: "pencil")
