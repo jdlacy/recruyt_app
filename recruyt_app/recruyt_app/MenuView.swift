@@ -17,43 +17,62 @@ struct MenuView: View {
                 Text("Home")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }
             .padding(.top, 100)
             HStack {
+                NavigationLink(
+                    destination: About()){
                 Image(systemName: "a.square")
                     .foregroundColor(.gray)
                     .imageScale(.large)
                 Text("About Recruyt")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 30)
             HStack {
+                NavigationLink(
+                    destination: InterviewPrep()){
+                Image(systemName: "bubble.left.and.bubble.right")
+                    .foregroundColor(.gray)
+                    .imageScale(.large)
+                Text("Interview Prep")
+                    .foregroundColor(.gray)
+                    .font(.headline)
+                }}
+            .padding(.top, 30)
+            HStack {
+                NavigationLink(
+                    destination: Tips_Resume()){
                 Image(systemName: "pencil")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Our Team")
+                Text("Tips and Resume")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 30)
             HStack {
-                Image(systemName: "gearshape")
+                NavigationLink(
+                    destination: Connections()){
+                Image(systemName: "network")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Our Clients")
+                Text("Building Connections")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 30)
             HStack {
-                Image(systemName: "gearshape")
+                NavigationLink(
+                    destination: OurTeam()){
+                Image(systemName: "figure.wave")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Settings")
+                Text("Meet the Devs")
                     .foregroundColor(.gray)
                     .font(.headline)
-            }
+                }}
             .padding(.top, 30)
             Spacer()
         }
